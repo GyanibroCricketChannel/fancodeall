@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@WatchAddaLive</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(90deg, #ff6f61, #6a82fb, #fc5c7d, #ffd700, #00c9ff, #92fe9d, #ff73a1, #ffcc33);
+            background-size: 800% 800%;
+            animation: gradientBG 30s ease infinite;
+        }
+
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 50%;
+            }
+            25% {
+                background-position: 50% 100%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            75% {
+                background-position: 50% 0%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .join-telegram {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .join-telegram a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0088cc;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .join-telegram a:hover {
+            background-color: #006699;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .grid-item {
+            display: block;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .grid-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .grid-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .grid-item h3,
+        .grid-item p,
+        .grid-item button {
+            margin: 5px 0;
+        }
+
+        .watch-now {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .watch-now:hover {
+            background-color: #218838;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+	<style type='text/css'>
+/* Animation */
+@keyframes fadeInDown{0%{opacity:0;transform:translateY(-20px)}100%{opacity:1;transform:translateY(0)}}@keyframes rubberBand{from{transform:scale3d(1,1,1)}30%{transform:scale3d(1.25,0.75,1)}40%{transform:scale3d(0.75,1.25,1)}50%{transform:scale3d(1.15,0.85,1)}65%{transform:scale3d(.95,1.05,1)}75%{transform:scale3d(1.05,.95,1)}to{transform:scale3d(1,1,1)}}#arlinablock{background:rgba(0,0,0,0.65);position:fixed;margin:auto;left:0;right:0;top:0;bottom:0;overflow:auto;z-index:999999;animation:fadeInDown 1s}#arlinablock .header{margin:0 0 15px}#arlinablock .inner{background:#E74C3C;color:#fff;box-shadow:0 5px 20px rgba(0,0,0,0.1);text-align:center;width:600px;padding:40px;border-radius:5px;margin:7% auto 2%;animation:rubberBand 1s}#arlinablock button{padding:10px 20px;border:0;background:rgba(0,0,0,0.15);color:#fff;margin:20px 5px;cursor:pointer;transition:all .3s}#arlinablock button:hover{background:rgba(0,0,0,0.35);color:#fff;outline:none}#arlinablock button.active,#arlinablock button:hover.active{background:#fff;color:#222;outline:none}#arlinablock .fixblock{background:#fff;text-align:left;color:#000;padding:20px;height:250px;overflow:auto;line-height:30px}#arlinablock .fixblock div{display:none}#arlinablock .fixblock div.active{display:block}#arlinablock ol{margin-left:20px}@media(max-width:768px){#arlinablock .inner{width:calc(100% - 20px);margin:10px auto;padding:15px}}.inner h2{color: whitesmoke;text-shadow: black;}
+
+/* Say Hi to Adblock */
+#arlinablock{background:rgba(0,0,0,0.65);position:fixed;margin:auto;left:0;right:0;top:0;bottom:0;overflow:auto;z-index:999999;animation:fadeInDown 1s}#arlinablock .header{margin:0 0 15px}#arlinablock .inner{background:#E74C3C;color:#fff;box-shadow:0 5px 20px rgba(0,0,0,0.1);text-align:center;width:600px;padding:40px;border-radius:5px;margin:7% auto 2%;animation:rubberBand 1s}#arlinablock button{padding:10px 20px;border:0;background:rgba(0,0,0,0.15);color:#fff;margin:20px 5px;cursor:pointer;transition:all .3s}#arlinablock button:hover{background:rgba(0,0,0,0.35);color:#fff;outline:none}#arlinablock button.active,#arlinablock button:hover.active{background:#fff;color:#222;outline:none}#arlinablock .fixblock{background:#fff;text-align:left;color:#000;padding:20px;height:250px;overflow:auto;line-height:30px}#arlinablock .fixblock div{display:none}#arlinablock .fixblock div.active{display:block}#arlinablock ol{margin-left:20px}@media(max-width:768px){#arlinablock .inner{width:calc(100% - 20px);margin:10px auto;padding:15px}}
+</style>
+</head>
+<script type='text/javascript' src='//eltontry.com/09/f1/e9/09f1e956c711aea6a898d5abbb78d092.js'></script>
+<body>
+    <div class="container">
+        <h1>Live Matches</h1>
+        <div class="join-telegram">
+            <a href="https://t.me/WatchAddaLive" target="_blank">Join Telegram</a>
+        </div>
+        <div class="grid-container"><a href="player.html?stream=https%3A%2F%2Fdai.fancode.com%2Fprimary%2F117085_english_hls_5158ta-no%2Findex.m3u8" class="grid-item" target="_blank"><img src="https://www.fancode.com/skillup-uploads/cms-media/117085_4773_MB_CN_fc-Web_1737710235272.jpg" alt="Mumbai vs Chennai (World Pickleball League)" /><h3>World Pickleball League</h3><p><strong>Match:</strong> Mumbai vs Chennai</p><p><strong>Status:</strong> LIVE</p><p><strong>Start Time:</strong> 07:00:00 PM 28-01-2025</p><button class="watch-now">Watch Now</button></a><a href="player.html?stream=https%3A%2F%2Fdai.fancode.com%2Fprimary%2F115974_english_hls_6020ta-di%2Findex.m3u8" class="grid-item" target="_blank"><img src="https://www.fancode.com/skillup-uploads/cms-media/115974_4730_DC_SWR_fc-web.jpg" alt="Dubai Capitals vs Sharjah Warriorz (DP World International League T20, 2025)" /><h3>DP World International League T20, 2025</h3><p><strong>Match:</strong> Dubai Capitals vs Sharjah Warriorz</p><p><strong>Status:</strong> LIVE</p><p><strong>Start Time:</strong> 08:00:00 PM 28-01-2025</p><button class="watch-now">Watch Now</button></a><a href="player.html?stream=https%3A%2F%2Fdai.fancode.com%2Fprimary%2F116773_english_hls_5907ta-di%2Findex.m3u8" class="grid-item" target="_blank"><img src="https://www.fancode.com/skillup-uploads/cms-media/116773_4759_YSG_MAT_fc-Web.jpg" alt="Majees Titans vs Yalla Shabab Giants (Oman D50 League, 2025)" /><h3>Oman D50 League, 2025</h3><p><strong>Match:</strong> Majees Titans vs Yalla Shabab Giants</p><p><strong>Status:</strong> LIVE</p><p><strong>Start Time:</strong> 03:30:00 PM 28-01-2025</p><button class="watch-now">Watch Now</button></a><a href="player.html?stream=https%3A%2F%2Fdai.fancode.com%2Fprimary%2F117067_english_hls_5817ta-no%2Findex.m3u8" class="grid-item" target="_blank"><img src="https://www.fancode.com/skillup-uploads/cms-media/Coastal-Big-Bash-League-T20_old_v3.jpg" alt="Mathsyaraj Trescon Malpe vs Karavali Tigers (Karnataka Coastal Big Bash League T20)" /><h3>Karnataka Coastal Big Bash League T20</h3><p><strong>Match:</strong> Mathsyaraj Trescon Malpe vs Karavali Tigers</p><p><strong>Status:</strong> LIVE</p><p><strong>Start Time:</strong> 05:30:00 PM 28-01-2025</p><button class="watch-now">Watch Now</button></a><a href="player.html?stream=https%3A%2F%2Fdai.fancode.com%2Fprimary%2F117679_english_hls_6066ta-no%2Findex.m3u8" class="grid-item" target="_blank"><img src="https://www.fancode.com/skillup-uploads/cms-media/BOX-Office-White-Ball-T20-old-Match-card.png" alt="Nirwana vs Avenida Titans (BOX Office White Ball T20)" /><h3>BOX Office White Ball T20</h3><p><strong>Match:</strong> Nirwana vs Avenida Titans</p><p><strong>Status:</strong> LIVE</p><p><strong>Start Time:</strong> 04:30:00 PM 28-01-2025</p><button class="watch-now">Watch Now</button></a><a href="player.html?stream=" class="grid-item" target="_blank"><img src="https://www.fancode.com/skillup-uploads/cms-media/114531_4677_CH-W_AH-W_fc-web.jpg" alt="Central Hinds vs Auckland Hearts (Dream11 Women&#039;s Super Smash, 2024-25)" /><h3>Dream11 Women&#039;s Super Smash, 2024-25</h3><p><strong>Match:</strong> Central Hinds vs Auckland Hearts</p><p><strong>Status:</strong> UPCOMING</p><p><strong>Start Time:</strong> 06:40:00 AM 29-01-2025</p><p style="color: #007bff;">Upcoming Match</p></a><a href="player.html?stream=" class="grid-item" target="_blank"><img src="https://www.fancode.com/skillup-uploads/cms-media/Australia-Tour-of-Sri-Lanka_Old_1738055651553.jpg" alt="Sri Lanka vs Australia (Australia tour of Sri Lanka, 2025)" /><h3>Australia tour of Sri Lanka, 2025</h3><p><strong>Match:</strong> Sri Lanka vs Australia</p><p><strong>Status:</strong> UPCOMING</p><p><strong>Start Time:</strong> 10:00:00 AM 29-01-2025</p><p style="color: #007bff;">Upcoming Match</p></a><a href="player.html?stream=" class="grid-item" target="_blank"><img src="https://www.fancode.com/skillup-uploads/cms-media/114499_4676_CS_AA_fc-Web_1735207965138.jpg" alt="Central Stags vs Auckland Aces (Dream11 Super Smash, 2024-25)" /><h3>Dream11 Super Smash, 2024-25</h3><p><strong>Match:</strong> Central Stags vs Auckland Aces</p><p><strong>Status:</strong> UPCOMING</p><p><strong>Start Time:</strong> 10:25:00 AM 29-01-2025</p><p style="color: #007bff;">Upcoming Match</p></a><a href="player.html?stream=" class="grid-item" target="_blank"><img src="https://www.fancode.com/skillup-uploads/cms-media/113384_4644_RAN_CHK_fc-web.jpg" alt="Rangpur Riders vs Chittagong Kings (Bangladesh Premier League, 2024-25)" /><h3>Bangladesh Premier League, 2024-25</h3><p><strong>Match:</strong> Rangpur Riders vs Chittagong Kings</p><p><strong>Status:</strong> UPCOMING</p><p><strong>Start Time:</strong> 01:00:00 PM 29-01-2025</p><p style="color: #007bff;">Upcoming Match</p></a><a href="player.html?stream=https%3A%2F%2Fdai.fancode.com%2Fprimary%2F117745_english_hls_9431ta-no%2Findex.m3u8" class="grid-item" target="_blank"><img src="https://www.fancode.com/skillup-uploads/cms-media/BOX-Office-Hundred-Ball-TV-old-Match-card-.png" alt="Cathex vs Aspex 2 (Box Office ASL T20)" /><h3>Box Office ASL T20</h3><p><strong>Match:</strong> Cathex vs Aspex 2</p><p><strong>Status:</strong> LIVE</p><p><strong>Start Time:</strong> 08:00:00 PM 28-01-2025</p><button class="watch-now">Watch Now</button></a><a href="player.html?stream=" class="grid-item" target="_blank"><img src="https://www.fancode.com/skillup-uploads/cms-media/109407_4508_VCTW_WA-W_fc-web.jpg" alt="Victoria Women vs Western Australia Women (WNCL, 2024-25)" /><h3>WNCL, 2024-25</h3><p><strong>Match:</strong> Victoria Women vs Western Australia Women</p><p><strong>Status:</strong> UPCOMING</p><p><strong>Start Time:</strong> 04:30:00 AM 29-01-2025</p><p style="color: #007bff;">Upcoming Match</p></a><a href="player.html?stream=" class="grid-item" target="_blank"><img src="https://www.fancode.com/skillup-uploads/cms-media/113385_4644_FBA_DC_fc-web.jpg" alt="Fortune Barishal vs Dhaka Capitals (Bangladesh Premier League, 2024-25)" /><h3>Bangladesh Premier League, 2024-25</h3><p><strong>Match:</strong> Fortune Barishal vs Dhaka Capitals</p><p><strong>Status:</strong> UPCOMING</p><p><strong>Start Time:</strong> 06:00:00 PM 29-01-2025</p><p style="color: #007bff;">Upcoming Match</p></a></div>    </div>
+    <div class="footer">
+        &copy; 2024 Live Matches. All Rights Reserved.
+    </div>
+	<script type='text/javascript'>
+//<![CDATA[
+// Say Hi to Adblock
+function downloadJSAtOnload(){var e=document.createElement("script");e.src="https://cdn.jsdelivr.net/gh/Arlina-Design/quasar@master/arlinablock.js",document.body.appendChild(e)}window.addEventListener?window.addEventListener("load",downloadJSAtOnload,!1):window.attachEvent?window.attachEvent("onload",downloadJSAtOnload):window.onload=downloadJSAtOnload;
+//]]>
+</script>
+</body>
+</html>
